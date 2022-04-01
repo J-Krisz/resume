@@ -15,6 +15,10 @@ body {
     min-height: 100vh;
 }
 
+ul {
+    color: #333
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -246,6 +250,7 @@ p {
 .interests ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    color: #333;
 }
 
 .interests ul li {
